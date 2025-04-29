@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to bottom, #2d1d47, #3e2e5d);
+    color: white;
+    text-align: center;
+  }
+  
+  h1, p {
+    margin: 10px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  .card {
+    width: 100px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .reading {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
