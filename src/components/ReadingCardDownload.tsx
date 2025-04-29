@@ -11,7 +11,7 @@ export interface DownloadOptions {
   cards: DownloadCard[];
   /** "This is my tarot card! Know your tarot now!" */
   titleText: string;
-  /** "https://maktarot.vercel.com" */
+  /** "https://maktarot.vercel.app" */
   footerLinkText: string;
   /** CSS color for the 1080×1920 background. Defaults to #FFA59E */
   backgroundColor?: string;
@@ -120,7 +120,7 @@ export async function downloadReadingAsPNG(opts: DownloadOptions): Promise<void>
   titleDiv.textContent = titleText;
 
   const linkDiv = document.createElement('div');
-  linkDiv.setAttribute('data-layer', 'https://maktarot.vercel.com');
+  linkDiv.setAttribute('data-layer', 'https://maktarot.vercel.app');
   linkDiv.className = 'HttpsMaktarotVercelCom';
   Object.assign(linkDiv.style, {
     color:      '#242424',

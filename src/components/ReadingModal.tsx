@@ -226,7 +226,7 @@ export default function ReadingModal({ selectedIds, onClose }: ReadingModalProps
     downloadReadingAsPNG({
       cards: downloadCards,
       titleText:      'This is my tarot card! Know your tarot now!',
-      footerLinkText: 'https://maktarot.vercel.com',
+      footerLinkText: 'https://maktarot.vercel.app',
       backgroundColor: '#FFA59E',
     });
   };
@@ -292,7 +292,7 @@ export default function ReadingModal({ selectedIds, onClose }: ReadingModalProps
         name:      c.name,
       })),
       titleText:      'This is my tarot card! Know your tarot now!',
-      footerLinkText: 'https://maktarot.vercel.com',
+      footerLinkText: 'https://maktarot.vercel.app',
       backgroundColor:'#FFA59E',
     })
   }
